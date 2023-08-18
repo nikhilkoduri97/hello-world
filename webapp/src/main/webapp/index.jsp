@@ -68,6 +68,9 @@
             <button class="login-button" type="submit">Login</button>
         </form>
     </div>
+    
+    <!-- Thank you text -->
+    <p style="text-align: center; margin-top: 20px;">Thank you from Nikhil</p>
 </body>
 </html>
 
