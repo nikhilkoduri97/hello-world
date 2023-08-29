@@ -1,43 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 100px;
-  }
-  .login-box {
-    width: 300px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    background-color: #f9f9f9;
-  }
-  .fun-message {
-    font-size: 20px;
-    color: #009900;
-    margin-bottom: 20px;
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Update Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- You can link to your own CSS file here -->
 </head>
 <body>
-
-<div class="fun-message">
-  Did you hear about the mathematician who’s afraid of negative numbers? He will stop at nothing to avoid them!
-</div>
-
-<div class="login-box">
-  <h2>Login</h2>
-  <form>
-    <label for="username">Username:</label>
-    <input type="text" id="username" name="username"><br><br>
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password"><br><br>
-    <button type="submit">Login</button>
-  </form>
-</div>
-
+    <div class="container">
+        <h2>Login Update</h2>
+        <form action="update.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="password">New Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <button type="submit">Update</button>
+        </form>
+    </div>
 </body>
 </html>
 
